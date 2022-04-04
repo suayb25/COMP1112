@@ -9,15 +9,7 @@ public class TestBanking {
     private static Scanner scn;
 
     public static void main(String[] args) {
-        Random rnd = new Random();
-        int low = 11;
-        int high = 19;
-        int number = rnd.nextInt(high-low+1)+low;//11 and 19 included [11, 19]
-        System.out.println(number);
-        number = rnd.nextInt(high-low)+low;//11 (included) and 19 (not included) [11, 19)
-        System.out.println(number);
-
-        /*allAccountHolders = new ArrayList<>();
+        allAccountHolders = new ArrayList<>();
         scn = new Scanner(System.in);
         addAccountHolder();
         login();
@@ -27,7 +19,7 @@ public class TestBanking {
         withdraw();
         transferBetweenAccount();
         displayAccountInfo();
-        logout();*/
+        logout();
     }
 
     private static void addAccount() {
