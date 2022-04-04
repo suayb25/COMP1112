@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class BankAccount {//Show it and add transfer function
+public class BankAccount {
 
     private int accountId = 1000;
     private double balance = 0.0;
